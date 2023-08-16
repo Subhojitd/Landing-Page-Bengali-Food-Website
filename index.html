@@ -7,10 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bong Appetite</title>
     <link rel="stylesheet" href="./style.css">
+    <!-- fontawsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Animation-cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Rubik:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -20,11 +24,11 @@
             <!-- logo -->
             <img class="logo" src="Assets/logo-1.png" alt="">
             <!-- menu -->
-            <ul class="menu">
-                <li class="menu-items">Menu</li>
-                <li class="menu-items">Order</li>
-                <li class="menu-items">Restaurants</li>
-                <li class="menu-items">Track Order</li>
+            <ul class="nav-menu">
+                <li class="menu-items">Menu</p>
+                <li class="menu-items">Order</p>
+                <li class="menu-items">Restaurants</p>
+                <li class="menu-items">Track Order</p>
             </ul>
             <!-- search box -->
             <div class="nav-extras">
@@ -34,6 +38,12 @@
                 </div>
                 <!-- cart button -->
                 <a href="#" class="cart"><i class="fa-solid fa-cart-flatbed"></i></a>
+
+                <div class="nav-toggler">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </nav>
         <!-- Hero section -->
@@ -54,13 +64,488 @@
             </div>
 
             <!-- hero img -->
-            <div class="hero-img">
-                div
+            <div class="hero-img-container">
+                <div class="background-ele" data-aos="fade-in" data-aos-delay="700">
+                    <span class="dot1"></span>
+                    <span class="dot2"></span>
+                    <span class="dot3"></span>
+                    <span class="dot4"></span>
+                    <div class="square"></div>
+                </div>
+                <div class="foreground-ele">
+                    <img data-aos="zoom-in" data-aos-delay="0" src="./Assets/hero-pulao.jpeg" class="hero-img"  alt="">
+                    <img data-aos="zoom-in" data-aos-delay="150" src="./Assets/hero-mach.jpeg" class="hero-img" alt="">
+                    <img data-aos="zoom-in" data-aos-delay="300" src="./Assets/hero-chingri.jpeg" class="hero-img" alt="">
+                    
+                    <div class="review-box-1" data-aos="zoom-in" data-aos-delay="400" >
+                        <div class="reviewer-info" data-aos="zoom-out" data-aos-delay="600" >
+                            <img src="./Assets/my-pic-3.jpg" class="reviewer-img" alt="">
+                            <div class="reviewer">
+                                <div class="reviewer-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <p>4.5</p>
+                                </div>
+                                <h2 class="reviewer-name">Subhajit</h2>
+                            </div>
+                        </div>
+                        <div class="review-body" data-aos="zoom-out" data-aos-delay="650" >
+                            <i class="fa-solid fa-quote-left"></i>
+                            <p class="review">The restaurant was good. Staff was very welcoming and the food.... well no words for it. Chef was amazing and the view of sky from the top deck was fabulous. </p>
+                        </div>
+                        
+                    </div>
+                </div>
             </div>
 
         </main>
     </header>
+    <!-- Section -->
+    <section id="restraunts-section">
+
+        <div class="leaf-layer right">
+            <img data-aos="zoom-in-up"  src="Assets/leafs.png" alt="">
+        </div>
+
+        <div class="section">
+
+            <!-- foodimage -->
+            <div class="food-image-container">
+                <div class="circle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="circle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="food-img-animation-wrapper" data-aos="fade" data-aos-delay="300">
+                    <img src="./Assets/food-1.png" alt="" class="food-img">
+                    <img src="./Assets/food-2.png" alt="" class="food-img">
+                    <img src="./Assets/food-3.png" alt="" class="food-img">
+                    <img src="./Assets/food-4.png" alt="" class="food-img">
+                    <img src="./Assets/food-5.png" alt="" class="food-img">
+                    <img src="./Assets/food-6.png" alt="" class="food-img">
+                    <img src="./Assets/food-7.png" alt="" class="food-img">
+                </div>
+            </div>
+
+            <!-- section-content-->
+            <div class="section-detail">
+                <span class="section-highlight">From Professional Chef</span>
+                <p class="section-title">1000+</p>
+                <p class="section-info">Order from our 1000+ food and beverages menu. Food for every taste and mood. </p>
+                <button class="btn">Order Food</button>
+            </div>
+        </div>
+
+        <div class="restaurants-container">
+            <div class="restaurant">
+                <p class="discount">50% Off</p>
+                <div class="restaurant-thumbnail">
+                    <img class="restaurant-img" src="Assets/restraunt-1.jpeg" alt="">
+                </div>
+                <div class="restaurant-body">
+                    <h3 class="restaurant-name">Restaurant 01</h3>
+                    <p class="menu">Fish, Curry, etc </p>
+                    <p class="place">Barasat</p>
+                    <span class="rating">4.2<i class="fa-solid fa-star"></i></span>
+                </div>
+            </div>
+            <div class="restaurant">
+                <p class="discount">70% Off</p>
+                <div class="restaurant-thumbnail">
+                    <img class="restaurant-img" src="Assets/restraunt-2.jpeg" alt="">
+                </div>
+                <div class="restaurant-body">
+                    <h3 class="restaurant-name">Restaurant 02</h3>
+                    <p class="menu">Aloo Posto, Curry, etc</p>
+                    <p class="place">Bidhannagar</p>
+                    <span class="rating">4.9<i class="fa-solid fa-star"></i></span>
+                </div>
+            </div>
+            <div class="restaurant">
+                <p class="discount">54% Off</p>
+                <div class="restaurant-thumbnail">
+                    <img class="restaurant-img" src="Assets/restraunt-3.jpeg" alt="">
+                </div>
+                <div class="restaurant-body">
+                    <h3 class="restaurant-name">Restaurant 03</h3>
+                    <p class="menu">Rosogolla, Sondesh, etc</p>
+                    <p class="place">Bardhaman</p>
+                    <span class="rating">4.7<i class="fa-solid fa-star"></i></span>
+                </div>
+            </div>
+            <div class="restaurant">
+                <p class="discount">59% Off</p>
+                <div class="restaurant-thumbnail">
+                    <img class="restaurant-img" src="Assets/restraunt-4.jpeg" alt="">
+                </div>
+                <div class="restaurant-body">
+                    <h3 class="restaurant-name">Restaurant 04</h3>
+                    <p class="menu">Luchi, Cholar-Dal, etc</p>
+                    <p class="place">Birbhum</p>
+                    <span class="rating">4.8<i class="fa-solid fa-star"></i></span>
+                </div>
+            </div>
+            <div class="restaurant">
+                <p class="discount">57% Off</p>
+                <div class="restaurant-thumbnail">
+                    <img class="restaurant-img" src="Assets/restraunt-5.jpeg" alt="">
+                </div>
+                <div class="restaurant-body">
+                    <h3 class="restaurant-name">Restaurant 05</h3>
+                    <p class="menu">Sukto, Curry, etc </p>
+                    <p class="place">Jadavpur</p>
+                    <span class="rating">4.4<i class="fa-solid fa-star"></i></span>
+                </div>
+            </div>
+            <div class="restaurant">
+                <p class="discount">60% Off</p>
+                <div class="restaurant-thumbnail">
+                    <img class="restaurant-img" src="Assets/restraunt-6.jpeg" alt="">
+                </div>
+                <div class="restaurant-body">
+                    <h3 class="restaurant-name">Restaurant 06</h3>
+                    <p class="menu">Muton, Chicken, etc </p>
+                    <p class="place">Basirhat</p>
+                    <span class="rating">4.6<i class="fa-solid fa-star"></i></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="leaf-layer left">
+            <img  src="Assets/leafs.png" alt="">
+        </div>
+    </section>
     
+    <!-- about Section -->
+    <section id="about-section">
+
+        <!-- review-container -->
+        <div class="about-section-review-container" data-aos="zoom-in-up">
+            
+            <div class="circle"></div>
+
+            <img src="Assets/chicken-png.png" class="mutton-img" alt="">
+
+            <!-- review=container -->
+           <div class="review-container">
+                <div class="review-wrapper" style="--aos-delay: 250ms;">
+                    <img src="./Assets/user-1.png" class="reviewer-img" alt="">
+                    <div class="review-box">
+                        <div class="reviewer-info">
+
+                            <div class="reviewer">
+                                <div class="reviewer-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <p>4.5</p>
+                                </div>
+                                <h2 class="reviewer-name">Subhajit</h2>
+                            </div>
+                        </div>
+                        <div class="review-body">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <p class="review">The restaurant was good. Staff was very welcoming and the food.... well no words for it. Chef was amazing and the view of sky from the top deck was fabulous. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-wrapper" style="--aos-delay: 300ms;">
+                    <img src="./Assets/user-5.png"  class="reviewer-img" alt="">
+                    <div class="review-box">
+                        <div class="reviewer-info">
+
+                            <div class="reviewer">
+                                <div class="reviewer-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <p>4.5</p>
+                                </div>
+                                <h2 class="reviewer-name">Subhajit</h2>
+                            </div>
+                        </div>
+                        <div class="review-body">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <p class="review">The restaurant was good. Staff was very welcoming and the food.... well no words for it. Chef was amazing and the view of sky from the top deck was fabulous. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-wrapper" style="--aos-delay: 350ms;">
+                    <img src="./Assets/user-2.png"  class="reviewer-img" alt="">
+                    <div class="review-box">
+                        <div class="reviewer-info">
+
+                            <div class="reviewer">
+                                <div class="reviewer-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <p>4.5</p>
+                                </div>
+                                <h2 class="reviewer-name">Jayy</h2>
+                            </div>
+                        </div>
+                        <div class="review-body">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <p class="review">The restaurant was good. Staff was very welcoming and the food.... well no words for it. Chef was amazing and the view of sky from the top deck was fabulous. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-wrapper" style="--aos-delay: 400ms;">
+                    <img src="./Assets/user-3.png" class="reviewer-img" alt="">
+                    <div class="review-box">
+                        <div class="reviewer-info">
+
+                            <div class="reviewer">
+                                <div class="reviewer-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <p>4.5</p>
+                                </div>
+                                <h2 class="reviewer-name">Amit</h2>
+                            </div>
+                        </div>
+                        <div class="review-body">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <p class="review">The restaurant was good. Staff was very welcoming and the food.... well no words for it. Chef was amazing and the view of sky from the top deck was fabulous. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-wrapper" style="--aos-delay: 450ms;">
+                    <img src="./Assets/user-4.png" class="reviewer-img" alt="">
+                    <div class="review-box">
+                        <div class="reviewer-info">
+
+                            <div class="reviewer">
+                                <div class="reviewer-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <p>4.5</p>
+                                </div>
+                                <h2 class="reviewer-name">Manish</h2>
+                            </div>
+                        </div>
+                        <div class="review-body">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <p class="review">The restaurant was good. Staff was very welcoming and the food.... well no words for it. Chef was amazing and the view of sky from the top deck was fabulous. </p>
+                        </div>
+                    </div>
+                </div>
+           </div> 
+        </div>
+        <!-- about-services -->
+        <div class="about">
+            <h2 class="about-title">Why Us?</h2>
+            <p class="about-info">We serves the best in taste. Our customers is our number 1 priority. See what others think about us</p>
+            <div class="services-container">
+                <div class="service">
+                    <div class="service-title">
+                        <img class="service-img" src="Assets/fastest-delivery.png" alt="">
+                        <h3 class="service-name">Fastest Delivery</h3>
+                    </div>
+                        <p class="service-detail">We deliver to your doorstep as fast it is possible for us.</p>
+   
+                </div>
+                <div class="service">
+                    <div class="service-title">
+                        <img class="service-img" src="Assets/best-prices.png" alt="">
+                        <h3 class="service-name">Best Prices</h3>
+                    </div>
+                        <p class="service-detail">You will get food at reasonable prices and affordable prices.</p>
+                </div>
+                <div class="service">
+                    <div class="service-title">
+                        <img class="service-img" src="Assets/20+ restaurant.png" alt="">
+                        <h3 class="service-name">20+ Restaurants</h3>
+                    </div>
+                        <p class="service-detail">We have more than 20+ restraunts listed in your particular area. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- faq section -->
+    <section id="faq-section">
+        <h1 class="section-title">
+            Frequently Asked Questions (FAQ)</h1>
+        </h1>
+        <div class="faq">
+            <div class="question-box">
+                <h3 class="question">
+                    How can I cancel my reservation?
+                </h3>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="answer-box">
+                <p class="answer">You can cancel your reservation by logging into your account and navigating to the "Reservations" section. Select the reservation you want to cancel and follow the cancellation process outlined there.</p>
+            </div>
+        </div>
+        
+        <div class="faq">
+            <div class="question-box">
+                <h3 class="question">
+                    What payment methods do you accept?
+                </h3>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="answer-box">
+                <p class="answer">We accept various payment methods, including credit and debit cards (Visa, MasterCard, American Express), PayPal, and online bank transfers. Please check the payment options available during the checkout process.</p>
+            </div>
+        </div>
+        
+        <div class="faq">
+            <div class="question-box">
+                <h3 class="question">
+                    Is Wi-Fi available in all rooms?
+                </h3>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="answer-box">
+                <p class="answer">Yes, Wi-Fi is available in all rooms of our establishment. We provide high-speed internet connectivity to ensure you stay connected during your stay.</p>
+            </div>
+        </div>
+        
+        <div class="faq">
+            <div class="question-box">
+                <h3 class="question">
+                    Can I request an early check-in?
+                </h3>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="answer-box">
+                <p class="answer">Early check-in requests are subject to availability. We recommend contacting our customer support or front desk in advance to inquire about the possibility of an early check-in. Additional charges may apply for this service.</p>
+            </div>
+        </div>
+        <div class="dish-layer right"><img src="Assets/karai.png" alt=""></div>
+        <img src="Assets/leafs.png" alt="" class="karai-leaf">
+        
+    </section>
+    <!-- Download app section -->
+    <section id="download-app-section">
+
+        <div class="section">
+
+            <div class="download-app-img-container" >
+                <div class="pulse" data-aos="zoom-in-up">
+                    <div class="circle pulse-animate"></div>
+                    <div class="circle"></div>
+                </div>
+                <img src="Assets/leafs.png" data-aos="zoom-in" data-aos-delay="200" class="leaf left" alt="">
+                <img src="Assets/leafs.png" data-aos="zoom-in" data-aos-delay="300" class="leaf right" alt="">
+                <img src="Assets/app.png" data-aos="phone-mockup-fade" data-aos-delay="200" alt="" class="phone-mockup">
+            </div>
+
+
+            <div class="section-detail">
+                <span class="section-highlight">Download our app to stay updated</span>
+                <p class="section-title">Make orders from your phone</p>
+                <p class="section-info">
+                    Get extra feature on app including tracking order, managing account and much more.
+                </p>
+                <div class="download-btn-grp">
+                    <a href="#" class="download-btn"><img src="Assets/play-store.png" alt=""></a>
+                    <a href="#" class="download-btn"><img src="Assets/app-store.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="discount-banner" data-aos="flip-up">
+        <div class="section-detail">
+            <h1 class="section-title">Get an extra 20% off on your first order</h1>
+            <p class="section-info">Use this code during checkout</p>
+            <p class="discount-code">
+                WELCOME20
+            </p>
+        </div>
+
+        <div class="dish-slide">
+
+        </div>
+    </div>
+    <section id="footer">
+        <div class="company-info">
+            <img class="logo" src="Assets/logo-1.png" alt="">
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="download-btn-grp">
+                <a href="#" class="download-btn"><img src="Assets/play-store.png" alt=""></a>
+                <a href="#" class="download-btn"><img src="Assets/app-store.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="useful-links footer-links-container">
+            <h3 class="footer-links-title">Useful Links</h3>
+            <a href="#" class="footer-links">Menu</a>
+            <a href="#" class="footer-links">Restaurants</a>
+            <a href="#" class="footer-links">Your Orders</a>
+            <a href="#" class="footer-links">Track Order</a>
+            <a href="#" class="footer-links">Support</a>
+        </div>
+        <div class="information footer-links-container">
+            <h3 class="footer-links-title">Information</h3>
+            <a href="#" class="footer-links">About Us</a>
+            <a href="#" class="footer-links">Privacy Policy</a>
+            <a href="#" class="footer-links">Terms & Conditions</a>
+            <a href="#" class="footer-links">What info we collect ?</a>
+        </div>
+        <div class="contact-us footer-links-container">
+            <h3 class="footer-links-title">Contact Us</h3>
+            <p class="footer-text">Our main restaurant is located at Basirhat, college para, 743422</p>
+            <p class="footer-text">Phone no - 7872732198</p>
+            <p class="footer-text">Email-id: subhojitdas153@gmail.com</p>
+        </div>
+
+        <div class="payment-patners">
+            <img src="Assets/visa.png" alt="">
+            <img src="Assets/master-card.png" alt="">
+            <img src="Assets/paypal.png" alt="">
+            <img src="Assets/stripe.png" alt="">
+            <img src="Assets/apple-pay.png" alt="">
+            <img src="Assets/google-pay.png" alt="">
+        </div>
+
+        <p class="payment-partners-text">
+            Fully secured payemnts by verified payment gateway
+        </p>
+         
+        <p class="copyright">Designed by Subhajit Das 😎</p>
+
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="app.js"></script>
+    
+
 </body>
 
 </html>
