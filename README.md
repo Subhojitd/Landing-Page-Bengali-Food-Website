@@ -39,7 +39,7 @@ The user interface (UI) design of the landing page emphasizes clarity and aesthe
 
 ## Getting Started
 
-To view the landing page, simply navigate to the provided URL: [Bengali Food Delivery Landing Page]([https://www.example.com](https://bong-appetite.netlify.app/))
+To view the landing page, simply navigate to the provided URL:https://bong-appetite.netlify.app/
 
 ## Technologies Used
 
