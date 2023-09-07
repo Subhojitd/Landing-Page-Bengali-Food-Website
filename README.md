@@ -2,7 +2,7 @@
 
 ![Bengali Food Delivery](Assets/page-demo.png)
 
-This project was completed as part of a task assigned by CodeClause to create a captivating landing page for a Bengali food delivery website. The landing page showcases a visually appealing design, featuring animations and an intuitive user interface that aims to engage and entice visitors to explore the website further.
+This project was completed as part of a task assigned by CodeClause to create a captivating landing page for a Bengali food delivery website. The landing page showcases a visually appealing design, featuring animations and an intuitive user interface that aims to engage and visitors to explore the website further.
 
 ## Table of Contents
 
